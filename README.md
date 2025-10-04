@@ -1,6 +1,6 @@
-# Auto Key Holder
-### Multi-feature key pattern holder
+# **Auto Key Holder**
+### ***Multi-feature key pattern holder***
 ### Auto Key Holder is a `lightweight PyQt6` application that automates keyboard presses using configurable patterns. Users add multiple patterns (key + hold duration + wait duration) and choose per-pattern mode: Custom (fixed hold/wait) or Random (min–max ranges; equal min/max means fixed). A separate Constant Key feature holds a single key independently for the app lifetime or toggled by a global hotkey. Patterns can repeat a finite number of times or infinitely (-1), and both constant and pattern sections support independent global hotkeys (work in other apps). The app includes Listen buttons to capture keys/hotkeys, per-pattern inline editing, Save/Load slots for constant and pattern configs, and efficient background threads (Event-based) to minimize CPU usage and ensure reliable key press/release and clean shutdown. Usage: add patterns, choose modes and durations, set hotkeys, optionally save configuration, then Start/Stop patterns or toggle constant key via GUI or global hotkeys.
 
-## Illustration
+## **Illustration**
 <img width="601" height="853" alt="image" src="https://github.com/user-attachments/assets/b4475189-b226-42e1-aaec-c50491d9d929" />
